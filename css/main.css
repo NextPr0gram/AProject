@@ -40,18 +40,8 @@ dialog[open] {
   color: red !important;
 }
 
-footer {
-  padding: none !important;
-  margin-block: none !important;
-}
-footer div {
-  padding-block: none !important;
-  margin-block: none !important;
-}
-footer div p {
-  padding-block: none !important;
-  margin: none !important;
-}
+
+
 
 /* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 $primaryColor: #ffffff;
