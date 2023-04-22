@@ -1,0 +1,162 @@
+div.d-flex {
+  margin: 1em;
+}
+
+table {
+  display: block;
+  margin-inline: auto;
+  max-width: 80em;
+}
+
+dialog[open] {
+  position: fixed; /* Fixes the position of the dialog on the screen */
+  z-index: 9999; /* Sets the z-index to a high value to ensure it's displayed on top */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1em;
+  border: 2px solid #929292;
+  border-radius: 0.3em;
+}
+
+.btn {
+  border-radius: 100em !important;
+  border-color: white !important;
+}
+
+.btn-primary {
+  background-color: black !important;
+}
+.btn-primary:hover {
+  background-color: white !important;
+  border-color: black !important;
+  color: black !important;
+}
+
+.btn-danger:hover {
+  background-color: white !important;
+  border-color: red !important;
+  color: red !important;
+}
+
+footer {
+  padding: none !important;
+  margin-block: none !important;
+}
+footer div {
+  padding-block: none !important;
+  margin-block: none !important;
+}
+footer div p {
+  padding-block: none !important;
+  margin: none !important;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+$primaryColor: #ffffff;
+$secondaryColor: #c7c7c7;
+
+.container {
+    margin-inline: auto;
+    max-width: 80em;
+}
+
+button, input[type="submit"] {
+    border-style: solid;
+    border-color: black;
+    border-radius: 10em;
+    border-width: 2px;
+    padding: 0.7em;
+    color: white;
+    background-color: black;
+
+    &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    transition: 250ms;
+    transition-timing-function: ease-in-out;
+
+    header {
+        background-color: $secondaryColor;
+        padding-block: auto;
+        padding-block: 1em;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            ul {
+                margin-block: 0;
+                margin-right: auto;
+
+                li {
+                    display: block;
+
+                }
+            }
+            nav {
+                display: flex;
+                justify-content: flex-end;
+                ul {
+
+                    li {
+                    }
+                }
+            }
+        }
+    }
+    form {
+        display: block;
+        margin-inline: auto;
+        max-width: 30em;
+        border-radius: 0.5em;
+        background-color: #ececec;
+    }
+
+        label {
+            position: relative;
+            top: 0em;
+            left: 7em;
+            pointer-events: none;
+            font-size: 0.8em;
+        }
+
+        input[type="text"],  input[type="password"]{
+            display: block;
+            margin-inline: auto;
+            margin-bottom: -1em;
+            height: 3em;
+            width: 18em;
+            border-radius: 10em;
+            border-style: solid;
+            border-color: black;
+            padding-inline: 1.5em;
+
+        }
+        button, input[type="submit"] {
+            display: block;
+            margin-inline: auto;
+            margin-bottom: -2em;
+        }
+        p {
+            text-align: center;
+        }
+
+}
+ *//*# sourceMappingURL=main.css.map */
